@@ -1,0 +1,21 @@
+{
+  "name": "composable-llm",
+  "version": "1.0.0",
+  "description": "A JavaScript app leveraing LLMs with custom data",
+  "main": "index.js",
+  "author": "RaymondMik",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "dotenv": "^16.3.1",
+    "hnswlib-node": "^1.4.2",
+    "langchain": "^0.0.102",
+    "pdfreader": "^3.0.0"
+  },
+  "type": "module"
+}
