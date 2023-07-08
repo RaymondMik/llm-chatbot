@@ -21,7 +21,7 @@ const rl = readline.createInterface({
 
 const readPdf = (userPrompt) => {
    let pdfText = '';
-   fs.readFile('data/YOUR_PDF_FILE.pdf', (err, pdfBuffer) => {
+   fs.readFile('data/dummy.pdf', (err, pdfBuffer) => {
       if (!err) {
          new PdfReader().parseBuffer(pdfBuffer, (err, item) => {
             if (err) console.error('error:', err);
